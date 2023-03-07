@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+body{text-align: center;}
+
+#numeri-estratti{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.d-none{
+    display: none;
+}
+
+#via{
+    margin-top: 20px;
+}
+
+#timer-title{
+    margin-top: 20px;
+}
+
+#inserisci{
+    margin-top: 20px;
+}
+
+.campo{
+    margin-top: 20px;
+}
+
+#ok{
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Simon says</h1>
+    <div id="descr-es">
+        Al click del bottone appariranno cinque diversi numeri, visibili per 10 secondi. Al termine dei 10 secondi i numeri scompariranno e dovrai inserire, uno alla volta, i numeri che hai visto precedentemente
+    </div>
+    <button id="via">Via!</button>
+    <div id="numeri-estratti"></div>
+    <div id="timer-title" class="d-none">Timer:</div>
+    <div id="timer" class="d-none">10</div>
+
+    <div id="blocco-inserisci" class="d-none">
+        <div id="inserisci" >Inserisci i numeri e poi premi il pulsante "ok" per vedere quanti sei riuscito a ricordarne</div>
+    
+    <input id="numero1" type="number" class=" campo" min="1" max="100" placeholder="Inserisci numero">
+    <input id="numero2" type="number" class=" campo" min="1" max="100" placeholder="Inserisci numero">
+    <input id="numero3" type="number" class=" campo" min="1" max="100" placeholder="Inserisci numero">
+    <input id="numero4" type="number" class=" campo" min="1" max="100" placeholder="Inserisci numero">
+    <input id="numero5" type="number" class=" campo" min="1" max="100" placeholder="Inserisci numero">
+
+    <button id="ok" >ok</button>
+    
+    </div>
+
+    <div id="testo-indovinati"></div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
